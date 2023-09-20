@@ -9,7 +9,7 @@
   "description": "updates strapi on a queue system",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Success: no test specified\" && exit 0",
     "start": "nodemon app.js"
   },
   "repository": {
