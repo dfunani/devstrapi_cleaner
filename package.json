@@ -1,7 +1,27 @@
 {
   "dependencies": {
     "axios": "^1.4.0",
-    "dotenv": "^16.3.1",
-    "type": "module"
-  }
+    "dotenv": "^16.3.1"
+  },
+  "name": "devstrapi_cleaner",
+  "version": "1.0.0",
+  "description": "updates strapi on a queue system",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfunani/devstrapi_cleaner.git"
+  },
+  "keywords": [
+    "strapi"
+  ],
+  "author": "Delali Funani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dfunani/devstrapi_cleaner/issues"
+  },
+  "homepage": "https://github.com/dfunani/devstrapi_cleaner#readme"
 }
